@@ -137,17 +137,6 @@ Navigation Bar ติดอยู่ด้านบนพร้อมเอฟ�
 
 ---
 
-## 👨‍💻 ผู้พัฒนา
-
-**ชื่อ:** ภูริพัฒนชัย รัตนาธรรม (Phuriphatthanachai Rattanatham)  
-**ชื่อเล่น:** ภูมิ (Bhume)  
-**GitHub:** [@ctrlfaith](https://github.com/ctrlfaith)  
-**LinkedIn:** [Phuriphatthanachai Rattanatham](https://linkedin.com/in/phuriphatthanachai-rattanatham-3b0ba4375)  
-**Email:** bhm.rattanatham@gmail.com  
-**ประเภทโปรเจกต์:** Portfolio Showcase Project
-
----
-
 ## ⚖️ เงื่อนไขการเผยแพร่และเจตนาของโครงการ
 
 โปรเจกต์นี้จัดทำเพื่อการแสดงผลงานและการเรียนรู้เท่านั้น  
@@ -165,4 +154,10 @@ This project is open source and available for educational purposes.
 
 ---
 
-**⭐ ถ้าคุณชอบโปรเจกต์นี้ อย่าลืมกด Star ใน GitHub นะครับ!**
+## 👨‍💻 ผู้พัฒนา
+
+**ชื่อ:** ภูริพัฒนชัย รัตนาธรรม (Phuriphatthanachai Rattanatham)   
+**GitHub:** [@ctrlfaith](https://github.com/ctrlfaith)  
+**LinkedIn:** [Phuriphatthanachai Rattanatham](https://linkedin.com/in/phuriphatthanachai-rattanatham-3b0ba4375)  
+**Email:** bhm.rattanatham@gmail.com  
+**ประเภทโปรเจกต์:** Portfolio Showcase Project
