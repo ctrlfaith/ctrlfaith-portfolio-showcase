@@ -148,12 +148,6 @@ Navigation Bar ติดอยู่ด้านบนพร้อมเอฟ�
 
 ---
 
-## 📄 License
-
-This project is open source and available for educational purposes.
-
----
-
 ## 👨‍💻 ผู้พัฒนา
 
 **ชื่อ:** ภูริพัฒนชัย รัตนาธรรม (Phuriphatthanachai Rattanatham)   
@@ -161,3 +155,10 @@ This project is open source and available for educational purposes.
 **LinkedIn:** [Phuriphatthanachai Rattanatham](https://linkedin.com/in/phuriphatthanachai-rattanatham-3b0ba4375)  
 **Email:** bhm.rattanatham@gmail.com  
 **ประเภทโปรเจกต์:** Portfolio Showcase Project
+
+---
+
+## 📄 License
+
+This project is open source and available for educational purposes.
+
