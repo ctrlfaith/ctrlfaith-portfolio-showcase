@@ -25,6 +25,7 @@
 - 💻 **Tech Stack Section** — แสดงเทคโนโลยีและเครื่องมือที่ใช้งานได้ พร้อมไอคอนจาก Simple Icons
 - 📂 **Projects Section** — ดึงข้อมูลโปรเจกต์จาก GitHub API พร้อมแสดงรายละเอียดและ Tech Stack
 - 📧 **Contact Section** — ข้อมูลติดต่อและลิงก์โซเชียลมีเดีย พร้อมปุ่ม Copy to Clipboard
+- 📄 **Resume Download** — ดาวน์โหลดเรซูเม่ได้ 2 ภาษา (ไทย/อังกฤษ) พร้อม Dropdown แบบ Animated
 - 🎨 **Glass Morphism Design** — UI/UX ที่สวยงามด้วย Custom CSS และ Tailwind
 - 📱 **Fully Responsive** — รองรับทุกขนาดหน้าจอ (Mobile, Tablet, Desktop)
 - ⚡ **Smooth Animations** — ใช้ Framer Motion และ CSS Keyframes
@@ -40,7 +41,7 @@
 | **Framework / Library** | Next.js 16, React 19 |
 | **Styling** | Tailwind CSS 4, Custom CSS (Glass Morphism) |
 | **Animation** | Framer Motion |
-| **UI Components** | Lucide React (Icons) |
+| **UI Components** | Lucide React (Icons: Download, FileText, ChevronDown, etc.) |
 | **API Integration** | GitHub REST API |
 | **Fonts** | Inter (Google Fonts via @next/font) |
 | **Deployment** | Vercel |
@@ -81,15 +82,17 @@ ctrl-portfolio/
 │   │   ├── ProjectsSection.tsx   # Projects Section (GitHub API)
 │   │   └── TechStackSection.tsx  # Tech Stack Section
 │   ├── Footer.tsx           # Footer Component
-│   └── Navbar.tsx           # Navigation Bar
+│   └── Navbar.tsx           # Navigation Bar with Resume Dropdown
 ├── lib/
 │   └── projectsConfig.ts    # Projects Metadata Configuration
 ├── node_modules/            # Dependencies
 ├── public/
-│   └── memoji/              # Memoji Images
-│       ├── memoji-hi.png
-│       ├── memoji-heart1.png
-│       └── memoji-laptop1.png
+│   ├── memoji/              # Memoji Images
+│   │   ├── memoji-hi.png
+│   │   ├── memoji-heart1.png
+│   │   └── memoji-laptop1.png
+│   ├── Phuriphat.tnc_Resume_TH.pdf    # Resume (Thai Version)
+│   └── Phuriphat.tnc_Resume_EN.pdf    # Resume (English Version)
 ├── .eslintrc.json           # ESLint Configuration
 ├── .gitignore               # Git Ignore File
 ├── next.config.js           # Next.js Configuration
@@ -117,6 +120,9 @@ ctrl-portfolio/
 ### ระบบนำทางที่ตอบสนอง
 Navigation Bar ติดอยู่ด้านบนพร้อมเอฟเฟกต์เมื่อเลื่อนหน้าเว็บ มีเมนูสำหรับมือถือที่เปิด-ปิดด้วย Animation จาก Framer Motion มีตัวบอกตำแหน่งที่เปลี่ยนตามส่วนที่ผู้ใช้กำลังดูอยู่ และสามารถคลิกลิงก์เพื่อเลื่อนไปยังส่วนต่างๆ ได้อย่างนุ่มนวล
 
+### ระบบดาวน์โหลดเรซูเม่
+ปุ่ม Resume ใน Navigation Bar ที่มี Dropdown เลือกภาษา (ไทย/อังกฤษ) พร้อม Animation ที่ลื่นไหล มี Icon และคำอธิบายชัดเจน รองรับทั้ง Desktop และ Mobile View และปิด Dropdown อัตโนมัติเมื่อคลิกดาวน์โหลดหรือคลิกข้างนอก
+
 ---
 
 ## 🔧 เทคโนโลยีเพิ่มเติมที่ใช้
@@ -127,7 +133,7 @@ Navigation Bar ติดอยู่ด้านบนพร้อมเอฟ�
 - **TypeScript** — Type Checking
 
 ### Design Resources
-- **Lucide React** — Open-source Icons
+- **Lucide React** — Open-source Icons (Download, FileText, ChevronDown, Menu, etc.)
 - **Simple Icons** — Brand Icons
 - **Google Fonts** — Inter Font Family
 
@@ -161,4 +167,3 @@ Navigation Bar ติดอยู่ด้านบนพร้อมเอฟ�
 ## 📄 License
 
 This project is open source and available for educational purposes.
-
